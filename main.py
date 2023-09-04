@@ -59,7 +59,7 @@ def q_obat(q: str):
 async def predict_medicines(file: UploadFile):
     # Upload the image to the deployed ML model
     files = {'file': (file.filename, file.file)}
-    response = requests.post('https://model-fix-2cmfqm2cfa-uc.a.run.app/predict', files=files)
+    response = requests.post('', files=files)
 
     if response.status_code == 200:
         predictions = response.json()
