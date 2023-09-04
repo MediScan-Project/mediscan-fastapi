@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+firebase-admin
+starlette
+google-cloud-storage
+numpy
+python-multipart
+fuzzywuzzy
+python-Levenshtein
+requests
+pytesseract
+Pillow
